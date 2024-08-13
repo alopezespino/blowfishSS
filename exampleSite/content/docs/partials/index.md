@@ -47,7 +47,7 @@ If you also use the custom domain feature of Umami and would like to serve their
 If you want the tracker to only run on specific domains, you can provide the `dataDomains` configuration value. If you don't provide a `dataDomains` value, the script will run on any website where the `domain` and` websiteid` match.
 
 {{< alert >}}
-**Note:** If you enable Umami Analytics, Blowfish will support [Umami Track Event](https://umami.is/docs/track-events) automatically. If you do not want to support Track Event, the param `enableTrackEvent` must set to `false`.   
+**Note:** If you enable Umami Analytics, Blowfish will support [Umami Track Event](https://umami.is/docs/track-events) automatically. If you do not want to support Track Event, the param `enableTrackEvent` must set to `false`.
 {{< /alert >}}
 
 ```toml
@@ -65,7 +65,7 @@ If you want the tracker to only run on specific domains, you can provide the `da
 To enable Seline Analytics support, simply provide your [Seline token](https://seline.so/docs/install-seline) in the `config/_default/params.toml` file.
 
 {{< alert >}}
-**Note:** If you enable Seline Analytics, Blowfish will support [Seline Track Event](https://seline.so/docs/custom-events) automatically. If you do not want to support Track Event, the param `enableTrackEvent` must set to `false`.   
+**Note:** If you enable Seline Analytics, Blowfish will support [Seline Track Event](https://seline.so/docs/custom-events) automatically. If you do not want to support Track Event, the param `enableTrackEvent` must set to `false`.
 {{< /alert >}}
 
 ```toml
